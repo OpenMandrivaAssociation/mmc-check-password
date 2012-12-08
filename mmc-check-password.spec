@@ -1,7 +1,7 @@
 Summary:	OpenLDAP password checker module for MMC
 Name:		mmc-check-password
 Version:	3.0.0
-Release:	%mkrel 3
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Servers
 URL:		http://mds.mandriva.org/
@@ -39,3 +39,25 @@ rm -rf %{buildroot}
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/openldap/mmc-check-password.conf
 %attr(0755,root,root) %{_libdir}/openldap/mmc-check-password.so
 
+
+
+%changelog
+* Wed May 04 2011 Oden Eriksson <oeriksson@mandriva.com> 3.0.0-3mdv2011.0
++ Revision: 666472
+- mass rebuild
+
+* Fri Dec 03 2010 Oden Eriksson <oeriksson@mandriva.com> 3.0.0-2mdv2011.0
++ Revision: 606654
+- rebuild
+
+* Thu Apr 29 2010 Anne Nicolas <ennael@mandriva.org> 3.0.0-1mdv2010.1
++ Revision: 540942
+- fix version
+
+* Tue Apr 27 2010 Oden Eriksson <oeriksson@mandriva.com> 0-1mdv2010.1
++ Revision: 539598
+- import mmc-check-password
+
+
+* Tue Apr 27 2010 Oden Eriksson <oeriksson@mandriva.com> 0-1mdv2010.1
+- initial Mandriva package
