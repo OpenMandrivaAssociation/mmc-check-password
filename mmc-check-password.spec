@@ -1,7 +1,7 @@
 Summary:	OpenLDAP password checker module for MMC
 Name:		mmc-check-password
 Version:	3.0.0
-Release:	8
+Release:	9
 License:	GPLv2
 Group:		System/Servers
 Url:		http://mds.mandriva.org/
