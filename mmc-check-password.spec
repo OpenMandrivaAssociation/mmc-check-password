@@ -1,6 +1,6 @@
 Summary:	OpenLDAP password checker module for MMC
 Name:		mmc-check-password
-Version:	3.0.0
+Version:	3.0.4
 Release:	16
 License:	GPLv2
 Group:		System/Servers
