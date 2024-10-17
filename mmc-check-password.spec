@@ -4,7 +4,7 @@ Version:	3.0.4
 Release:	16
 License:	GPLv2
 Group:		System/Servers
-Url:		http://mds.mandriva.org/
+Url:		https://mds.mandriva.org/
 Source0:	mmc-check-password.tar.gz
 Patch0:		mmc-check-password-mdv_conf.diff
 BuildRequires:	openldap-devel
