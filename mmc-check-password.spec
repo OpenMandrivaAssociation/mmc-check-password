@@ -7,6 +7,7 @@ Group:		System/Servers
 Url:		https://mds.mandriva.org/
 Source0:	mmc-check-password.tar.gz
 Patch0:		mmc-check-password-mdv_conf.diff
+BuildRequires:	make
 BuildRequires:	openldap-devel
 BuildRequires:	wrap-devel
 
